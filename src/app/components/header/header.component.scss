@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header nav ul {
+    
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; /* Light */
+    position: relative;
+}
+
+/* línea divisoria */
+header nav ul li:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    left: -30px; /* Ajusta según el espacio que deseé */
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #2e2e2e;
+    opacity: 0.7; /* Transparencia de la línea */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .login-btn {
+    background-color: #EBAF84;
+    color: #221002;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+header .login-btn:hover {
+    background-color: #bc7c5c;
+}

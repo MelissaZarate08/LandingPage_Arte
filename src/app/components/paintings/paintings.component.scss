@@ -1,0 +1,41 @@
+.paintings {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.paintings h2 {
+    font-size: 36px;
+    color: #221002;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; /* Light */
+    letter-spacing: 10px;
+}
+
+.paintings-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.painting-card {
+    width: 30%;
+    background-color: #F2E6D8;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+.painting-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.painting-card p {
+    font-size: 20px;
+    color: #221002;
+    text-align: center;
+}

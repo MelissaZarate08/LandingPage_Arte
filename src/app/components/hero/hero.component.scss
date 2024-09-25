@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #B3875D;
+}
+
+
+.hero .image-container img {
+    width: 800px;
+    border-radius: 10px;
+    
+}
+
+.hero-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 85px;
+    color: #ffffff;
+    letter-spacing: 15px;
+    font-weight: 400; /* Más delgado */
+    font-family: 'Libre Baskerville', serif;
+}
+
+.hero h2 {
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400; /* Más delgado */
+
+}
+
+.hero p {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #221002;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; /* Light */
+}
